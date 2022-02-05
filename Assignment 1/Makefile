@@ -6,7 +6,7 @@ msh379.o: msh379.c msh379.h
 linked_list.o: linked_list.c msh379.h
 	gcc -c linked_list.c
 tar:
-	tar -cvf submit.tar msh379.c msh379.h linked_list.c Makefile quanganh_CMPUT379_A1.pdf
+	tar -cvf submit.tar msh379.c msh379.h linked_list.c Makefile README.pdf
 clean:
 	rm -f msh379
 	rm -f msh379.o
